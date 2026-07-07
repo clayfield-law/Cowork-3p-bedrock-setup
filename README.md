@@ -12,7 +12,7 @@
 - [ ] Ein **Mobiltelefon** (für Bestätigungscodes)
 - [ ] Etwa 10 Minuten ohne Unterbrechung
 
-**Kostenlos** Neue AWS-Konten erhalten **bis zu 200 US-Dollar Startguthaben** (in der Regel 100$ sofort, weitere durch optionale Aktivitäten), gültig für 6 Monate. Ihre ersten Wochen mit Claude kosten damit sehr wahrscheinlich gar nichts. Danach zahlen Sie nur, was Sie tatsächlich nutzen — wie bei einer Telefonrechnung. Am Ende dieser Anleitung richten wir zusätzlich eine automatische E-Mail-Warnung ein, damit Kosten Sie nie überraschen können.
+Neue AWS-Konten erhalten **bis zu 200 US-Dollar Startguthaben** (in der Regel 100$ sofort, weitere durch optionale Aktivitäten), gültig für 6 Monate. Ihre ersten Wochen mit Claude kosten damit sehr wahrscheinlich gar nichts. Danach zahlen Sie nur, was Sie tatsächlich nutzen — wie bei einer Telefonrechnung. Am Ende dieser Anleitung richten wir zusätzlich eine automatische E-Mail-Warnung ein, damit Kosten Sie nie überraschen können.
 
 **Hinweis:** Diese Anleitung ist auf das deutsche Berufsgeheimnis (§ 203 StGB) hin entworfen. Die Einrichtung hält sämtliche Verarbeitung in EU-Rechenzentren und schaltet jede Form der Inhaltsprotokollierung ab. Die Beantragung der Zusatzvereinbarung für Berufsgeheimnisträger bei AWS (Teil 6) ist nicht Bestandteil dieser Einrichtung — sie muss von der Kanzlei selbst im eigenen Namen bei AWS angefragt werden, wird aber von AWS ausgestellt.
 
