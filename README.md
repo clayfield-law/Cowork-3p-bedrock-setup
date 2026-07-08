@@ -1,20 +1,20 @@
-# Claude Cowork (3P) mit Ihrer Kanzlei berufsgeheimnis-konform einrichten: Schritt-für-Schritt-Anleitung
+# Claude Cowork (3P) als Kanzlei berufsrechts- und datenschutzkonform einrichten: Schritt-für-Schritt-Anleitung
 
-**Für wen ist diese Anleitung?** Für alle, die Cowork §203 StGB und §43e BRAO konform über Amazon Web Services (AWS) betreiben wollen. Sie brauchen keinerlei technische Vorkenntnisse. Wer online einkaufen kann, schafft auch das hier.
+**Für wen ist diese Anleitung?** Für alle, die Cowork §203 StGB und §43e BRAO konform über Amazon Web Services (AWS) betreiben wollen. Technische Vorkenntnisse sind nicht nötig. Wer online einkaufen kann, schafft auch das hier.
 
-**Was wird eingerichtet:** Ein Konto beim Cloud-Dienst von Amazon (genannt „AWS"), eine automatische Einrichtung von AWS Bedrock, die dann anschließend in die Claude-Desktop-App eintragen wird. Das Ganze dauert etwa 10 Minuten.
+**Was wird eingerichtet:** Ein Konto beim Cloud-Dienst von Amazon (genannt „AWS") und eine automatische Einrichtung von AWS Bedrock, die anschließend in die Claude-Desktop-App eingetragen wird. Das Ganze dauert etwa 10 Minuten.
 
-**Was Sie vorher bereitlegen sollten:**
+**Was vorher bereitliegen sollte:**
 
 - [ ] Einen Computer mit Internet-Browser (Chrome, Edge, Firefox oder Safari)
-- [ ] Eine **Kanzlei-E-Mail-Adresse**, auf die Sie Zugriff haben (idealerweise ein Sammelpostfach wie `aws@ihre-kanzlei.de`)
+- [ ] Eine **Kanzlei-E-Mail-Adresse** mit Zugriff (idealerweise ein Sammelpostfach wie `aws@ihre-kanzlei.de`)
 - [ ] Eine **Firmenkreditkarte** *oder* die **IBAN des Kanzleikontos** (SEPA-Lastschrift wird akzeptiert)
 - [ ] Ein **Mobiltelefon** (für Bestätigungscodes)
 - [ ] Etwa 10 Minuten ohne Unterbrechung
 
-Neue AWS-Konten erhalten **bis zu 200 US-Dollar Startguthaben** (in der Regel 100$ sofort, weitere durch optionale Aktivitäten), gültig für 6 Monate. Ihre ersten Wochen mit Claude kosten damit sehr wahrscheinlich gar nichts. Danach zahlen Sie nur, was Sie tatsächlich nutzen — wie bei einer Telefonrechnung. Am Ende dieser Anleitung richten wir zusätzlich eine automatische E-Mail-Warnung ein, damit Kosten Sie nie überraschen können.
+Neue AWS-Konten erhalten **bis zu 200 US-Dollar Startguthaben** (in der Regel 100 $ sofort, weitere durch optionale Aktivitäten), gültig für 6 Monate. Die ersten Wochen mit Claude kosten damit sehr wahrscheinlich gar nichts. Danach wird nur abgerechnet, was tatsächlich genutzt wird, ähnlich wie bei einer Telefonrechnung. Am Ende dieser Anleitung richten wir zusätzlich eine automatische E-Mail-Warnung ein, damit die Kosten nie überraschen.
 
-**Hinweis:** Diese Anleitung ist auf das deutsche Berufsgeheimnis (§ 203 StGB) hin entworfen. Die Einrichtung hält sämtliche Verarbeitung in EU-Rechenzentren und schaltet jede Form der Inhaltsprotokollierung ab. Die Beantragung der Zusatzvereinbarung für Berufsgeheimnisträger bei AWS (Teil 6) ist nicht Bestandteil dieser Einrichtung — sie muss von der Kanzlei selbst im eigenen Namen bei AWS angefragt werden, wird aber von AWS ausgestellt.
+**Hinweis:** Diese Anleitung ist auf das deutsche Berufsgeheimnis (§ 203 StGB) hin entworfen. Die Einrichtung hält sämtliche Verarbeitung in EU-Rechenzentren und schaltet jede Form der Inhaltsprotokollierung ab. Die Beantragung der Zusatzvereinbarung für Berufsgeheimnisträger bei AWS (Teil 5) ist nicht Bestandteil dieser Einrichtung. Sie muss von der Kanzlei selbst im eigenen Namen bei AWS angefragt werden, wird aber von AWS ausgestellt.
 
 ---
 
@@ -172,7 +172,7 @@ Falls der API-Key je verloren geht: kein Drama, Teil 3 wiederholen (herunterlade
    - **Model discovery:** Schalter **AUS** (der Schalter muss grau sein, nicht blau).
    - **Model list:** auf **„+ Add model"** klicken und exakt eintragen:
      ```
-     eu.anthropic.claude-opus-4-6-v1
+     eu.anthropic.claude-opus-4-8
      ```
 8. Klicken Sie **„Test connection"** (oben rechts im Zugangsdaten-Bereich).
 
@@ -232,7 +232,7 @@ Die drei häufigsten Ursachen, in dieser Reihenfolge:
 3. Schritt 5 der Einrichtung hat nie ein grünes ✓ gezeigt — Teil 3 wiederholen und darauf achten.
 
 **„Beim Modell erscheint eine Fehlermeldung über ‚AWS Marketplace' / ‚Subscribe'."**
-Das gewählte Modell wurde noch nicht freigeschaltet. Prüfen Sie, dass im Abschnitt MODELS exakt `eu.anthropic.claude-opus-4-6-v1` eingetragen ist (Teil 4, Schritt 7). Falls ja: Teil 3 wiederholen (der Lauf schaltet das Modell frei) und ca. 5 Minuten warten.
+Das gewählte Modell wurde noch nicht freigeschaltet. Prüfen Sie, dass im Abschnitt MODELS exakt `eu.anthropic.claude-opus-4-8` eingetragen ist (Teil 4, Schritt 7). Falls ja: Teil 3 wiederholen (der Lauf schaltet das Modell frei) und ca. 5 Minuten warten.
 
 **„AWS meldet ein Zahlungsproblem."**
 In der AWS-Suchleiste **Billing** eintippen, **„Payment preferences"** öffnen und prüfen, ob die Zahlungsdaten gültig sind.
