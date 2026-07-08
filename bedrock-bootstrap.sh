@@ -67,7 +67,7 @@ main() {
 
   # EU geo cross-region inference profile (processed within EU regions only).
   # Used for the warm-up invocation and as the recommended model in Cowork.
-  local MODEL_ID="${MODEL_ID:-eu.anthropic.claude-opus-4-6-v1}"
+  local MODEL_ID="${MODEL_ID:-eu.anthropic.claude-opus-4-8}"
 
   # EU regions swept for the §203 logging check (invocation logging is
   # regional; the geo profile can route to any of these)
@@ -357,7 +357,7 @@ EOF
                         (first entry = default; keep it the only entry)
     To offer an additional Anthropic model later, activate it first by
     re-running this script, e.g.:
-      MODEL_ID=eu.anthropic.claude-sonnet-4-6 bash bedrock-bootstrap.sh
+      MODEL_ID=eu.anthropic.claude-sonnet-5 bash bedrock-bootstrap.sh
     then add that ID to the Model list.
 
   §203 StGB posture summary (verified by this run):
